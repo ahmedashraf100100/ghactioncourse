@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set API key
-        run: echo "API_KEY=12345"
+        run: echo "API_KEY=12345" >> $GITHUB_ENV
