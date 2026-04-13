@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print message
-        run: echo "Running the scheduled task"
+        run: echo "Running the scheduled task is working well!"   
+  
